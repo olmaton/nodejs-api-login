@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-api-login-basico",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.14"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  },
+  "scripts": {
+    "start": "node app/index.js",
+    "dev": "npx nodemon app/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
